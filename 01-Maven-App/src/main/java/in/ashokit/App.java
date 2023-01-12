@@ -10,6 +10,6 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-        System.out.println("I love Java");
+        System.out.println("I love Java" + "I am addicted to it");
     }
 }
