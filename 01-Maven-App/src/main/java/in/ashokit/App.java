@@ -21,5 +21,40 @@ public class App
 
         System.out.println(reminder);
 
+        //prime number
+
+
+
+        int number =2;
+        int flag = 0;
+
+        if(number == 2)
+        {
+            System.out.println("prime number");
+            System.exit(0);
+        }
+        else
+        {
+
+            for(int i = 2; i < number; i++)
+            {
+                // System.out.println(i);
+
+                if(number % i == 0)
+                {
+                    flag = 1;
+                }
+
+            }
+        }
+
+
+        if(flag == 0)
+        {
+            System.out.println("prime number");
+        }
+
+
+
     }
 }
